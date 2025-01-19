@@ -1,15 +1,10 @@
-.header-mobile {
+.hero {
     margin: 0;
     padding: 20px;
-
-    border-bottom: solid 4px black;
 }
 
-.header-mobile__sous-titre {
+.hero__titre {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 21px;
-
-    margin: 0;
-    padding: 0;
 }
