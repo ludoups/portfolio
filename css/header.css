@@ -3,9 +3,19 @@
 }
 
 .hero__sous-titre {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+
+    margin: 0;
+    padding: 0;
 }
 
 .hero__titre {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+
+    margin: 0;
+    padding: 0;
 }
