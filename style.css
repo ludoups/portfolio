@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(circle at top left ,gray, white, transparent),
+                radial-gradient(circle at top right , gainsboro, white, transparent);
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px;
+}
+
+.bento{
+    border: 5px solid black;
+    /* min-width: 100px; */
+    /* background-color: black; */
+    padding: 8px;
+    /* margin: 16px 0 0 0; */
+    border-radius: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    gap: 8px;
+}
+
+.case{
+    cursor: pointer;
+    padding: 16px;    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.case--fermee{
+    width: 150px;
+    height: 150px;}
+
+.case > h2{
+    font-family: "Fredoka", serif;
+}
+
+.contact{
+    /* border: 1px solid blue; */
+    background-color: white;    order: 1;
+}
+
+.competences{
+    /* border: 3px solid blue; */
+    background-color: DeepSkyBlue;    order: 2;
+}
+
+.experiences{
+    /* border: 3px solid orange; */
+    background-color: yellow;    order: 3;
+}
+
+.formations{
+    /* border: 3px solid green; */
+    background-color: limegreen;    order: 4;
+}
+
+.loisirs{
+    /* border: 3px solid pink; */
+    background-color: orangered;    order: 5;
+}
+
+.cache{
+    display: none;
+}
